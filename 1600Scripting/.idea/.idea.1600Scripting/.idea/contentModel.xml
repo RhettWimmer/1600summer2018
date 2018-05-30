@@ -13,9 +13,74 @@
             </e>
           </e>
         </e>
+        <e p="Resources" t="Include">
+          <e p="MouseClick.cs" t="Include" />
+          <e p="UdpateWork.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
-          <e p="Animal.cs" t="Include" />
-          <e p="StartAndUpate.cs" t="Include" />
+          <e p="Animals" t="Include">
+            <e p="AnimalBase.cs" t="Include" />
+            <e p="AnimalBehaviour.cs" t="Include" />
+            <e p="Mammal.cs" t="Include" />
+          </e>
+          <e p="Generics" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ActionHandlers" t="Include">
+                <e p="GameActionHandler.cs" t="Include" />
+                <e p="TextActionHandler.cs" t="Include" />
+              </e>
+              <e p="Actions" t="Include">
+                <e p="GameAction.cs" t="Include" />
+              </e>
+              <e p="Behaviours" t="Include">
+                <e p="ChildObject.cs" t="Include" />
+                <e p="ClickRunActionBehaviour.cs" t="Include" />
+                <e p="ParentObject.cs" t="Include" />
+                <e p="SendGameObject.cs" t="Include" />
+                <e p="StartActionBehaviour.cs" t="Include" />
+                <e p="Trigger.cs" t="Include" />
+              </e>
+              <e p="DataStorage" t="Include">
+                <e p="Examples" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="StringData.cs" t="Include" />
+                    <e p="TextUI.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Scripts" t="Include">
+                  <e p="DataStorage.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Functions" t="Include">
+                <e p="FunctionBase.cs" t="Include" />
+              </e>
+              <e p="GameStates" t="Include">
+                <e p="GameBrain.cs" t="Include" />
+                <e p="GameBrainBehaviour.cs" t="Include" />
+                <e p="GameStateBase.cs" t="Include" />
+                <e p="GameStateBehaviour.cs" t="Include" />
+                <e p="RunGame.cs" t="Include" />
+                <e p="StartGame.cs" t="Include" />
+              </e>
+              <e p="Health.cs" t="Include" />
+              <e p="HealthBehaviour.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="IAction.cs" t="Include" />
+              </e>
+              <e p="Legacy" t="Include">
+                <e p="SendAndGetObject.cs" t="Include" />
+              </e>
+              <e p="Objects" t="Include">
+                <e p="FloatBase.cs" t="Include" />
+                <e p="GenericObjects.cs" t="Include" />
+                <e p="GenericObjectsBase.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PowerUps" t="Include">
+            <e p="PowerUpBase.cs" t="Include" />
+            <e p="PowerUpBehaviour.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
