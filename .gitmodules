@@ -1,3 +1,6 @@
 [submodule "1600Scripting/Assets/Scripts/Generics"]
 	path = 1600Scripting/Assets/Scripts/Generics
 	url = https://github.com/anthonyromrell/Generics.git
+[submodule "1600Scripting/Assets/Scripts/Unity2017"]
+	path = 1600Scripting/Assets/Scripts/Unity2017
+	url = https://github.com/anthonyromrell/Unite2017.git
