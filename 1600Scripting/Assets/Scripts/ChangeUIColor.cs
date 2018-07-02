@@ -1,0 +1,14 @@
+﻿using UnityEngine;
+using UnityEngine.UI;
+
+[CreateAssetMenu]
+public class ChangeUIColor : ScriptableObject
+{
+    public Color NewColor;
+    
+    public void ColorUI(Image imageParameter)
+    {
+        imageParameter.color = NewColor;
+    }
+    
+}

@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dfd0d96c3ea749c7b067cc8fc53cb7b, type: 3}
-  m_Name: Health
+  m_Script: {fileID: 11500000, guid: 815c781634f744b62aa70095113a32e3, type: 3}
+  m_Name: Axe
   m_EditorClassIdentifier: 
-  Value: -2.8999994
+  DamageLevel: 5
