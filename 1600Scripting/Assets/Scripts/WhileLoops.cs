@@ -30,5 +30,8 @@ public class WhileLoops : MonoBehaviour
 		yield return new WaitForSeconds(2);
 
 		DisplayText.text = "";
+		
+		
+		//call a function
 	}
 }
